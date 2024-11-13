@@ -412,54 +412,97 @@
             
         </section>
 
-        <!-- Projects-->
-        <section class="projects-section" id="projects">
-            <div class="section-heading text-center">
-				<h2 class="abouth2" >Projects</h2>
-			</div>
-            <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-4 col-lg-5">
-                        <img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-8 col-lg-7">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-6 col-lg-6" style="margin-right: 1em;">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-5">
-                        <img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." />
-                    </div>
-                    
-                </div>
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Shoreline</h4>
-                            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any project - even commercial projects! Download it, customize it, and publish your website!</p>
-                        </div>
-                    </div>
-                </div>
-                
-        </section>
+        <!-- Projects Section -->
+  <section id="projects" class="project-container">
+    <div class="section-heading text-center">
+        <h2 class="abouth2" >Projects</h2>
+    </div>
+    <div class="container mt-5">
+
+      <!-- Project 1: Image on left, Description on right -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 order-md-1">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/img/icons/rbac.jpeg" alt="Project 1">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2">
+          <div class="project-card">
+            <h2 class="project-title">RBAC</h2>
+            <p class="project-description">This GitHub repository is a showcase of my adeptness in Java, Spring Boot, Spring REST, Spring Data JPA, and Postgres. At its core, this project revolves around implementing a finely tuned Role-Based Access Control (RBAC) system, demonstrating my commitment to robust security and streamlined access management. By harnessing the capabilities of Spring Boot, I engineered a resilient backend infrastructure capable of seamlessly handling intricate authentication, authorization, and role assignment processes. The integration of Spring Data JPA further solidified the project's foundation, enabling efficient communication with the Postgres database. As a result, this venture underscores my prowess in Java-driven development, RESTful architectural principles, and proficient database administration, all of which synergize to deliver a heightened level of user security and personalized access control.</p>
+            <a href="https://github.com/Anuj003Bhatt/service-rbac" class="btn btn-primary project-button">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2: Image on right, Description on left -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 order-md-2">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/img/icons/uiux.jpeg" alt="RBAC UI">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <div class="project-card">
+            <h2 class="project-title">RBAC UI/UX - Role Based Access Control</h2>
+            <p class="project-description">The GitHub repository serves as the codebase for the user interface of a Role-Based Access Control (RBAC) service, accessible at https://github.com/Anuj003Bhatt/service-rbac. Developed using React JS and integrated with Material UI, this project exemplifies the utilization of functional components, React hooks, and proficient state management, while seamlessly connecting with the backend service.</p>
+            <a href="https://github.com/Anuj003Bhatt/rbac-ui" class="btn btn-primary project-button">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3: Image on left, Description on right -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 order-md-1">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/img/icons/spring_security.jpeg" style="object-fit: contain;" alt="Spring Boot Security Java">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-2">
+          <div class="project-card">
+            <h2 class="project-title">Spring Security with Java and Spring Boot</h2>
+            <p class="project-description">This GitHub repository is a testament to my skills in Java, Spring Boot, Spring REST, Spring Data JPA, Spring Security, Postgres, JPA Auditing, JSON Web Tokens (JWT), Retrofit, and MapStruct. This project showcases robust security with Spring Security's advanced authentication and authorization, while Spring Boot and Spring REST ensure a high-performance backend. Streamlined data management and auditing through Spring Data JPA, Postgres, and JPA Auditing, alongside JWT integration for secure token-based access. Retrofit enhances efficient HTTP communication, and MapStruct simplifies complex object mapping. This repository encapsulates my expertise in modern application development, security, and seamless integration of cutting-edge technologies.</p>
+            <a href="https://github.com/Anuj003Bhatt/spring-security" class="btn btn-primary project-button">View Project</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 4: Image on right, Description on left -->
+      <div class="row align-items-center mb-5">
+        <div class="col-md-6 order-md-2">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="assets/img/icons/tm.jpeg" style="object-fit: contain;" alt="Task Manager">
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 order-md-1">
+          <div class="project-card">
+            <h2 class="project-title">Task Manager</h2>
+            <p class="project-description">The Task Manager App is a versatile and user-friendly tool designed to help users efficiently manage their tasks and stay organized. With this app, users can easily add, track, update, and delete tasks, ensuring they stay on top of their to-do lists. The app also allows users to track the status and priority of each task, providing a comprehensive view of their workload and helping them prioritize effectively.</p>
+            <a href="https://drive.google.com/file/d/1EAu_w0zOA-vxBySYy_HwkI0cSuxh0BqN/view?usp=sharing" class="btn btn-primary project-button">View Demo</a>
+            <a href="https://github.com/Anuj003Bhatt/task-manager" class="btn btn-primary project-button">View Project</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+        
         <!-- Contact-->
-        <!-- <section class="contact-section" style="background-color: #374151;">
+        <section class="contact-section" style="background-color: #374151;">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <i class="fa fa-address-card text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50">Rajasthan, India</div>
@@ -469,7 +512,7 @@
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <i class="fa fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
                                 <div class="small text-black-50"><a href="#!">anujnarayanbhatt@outlook.com</a></div>
@@ -478,7 +521,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
         <!-- Footer-->
         <footer style="background-color: #374151;" class="footer small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; Anuj Bhatt 2024</div></footer>
         <!-- Bootstrap core JS-->
