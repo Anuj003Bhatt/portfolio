@@ -124,13 +124,6 @@ function slide(whichSide, personNumber) {
         opacity: 1,
         translateX: 0
     });
-
-    if (isChickenVisible) {
-        tl.to(chicken, {
-            duration: 0.4,
-            opacity: 1
-        });
-    }
 }
 
 function setNextCardLeft() {

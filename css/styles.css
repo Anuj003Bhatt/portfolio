@@ -111,7 +111,7 @@ body {
 h2, .h2 {
   font-size: calc(1.325rem + 0.9vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   h2, .h2 {
     font-size: 2rem;
   }
@@ -120,7 +120,7 @@ h2, .h2 {
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   h3, .h3 {
     font-size: 1.75rem;
   }
@@ -129,7 +129,7 @@ h3, .h3 {
 h4, .h4 {
   font-size: calc(1.275rem + 0.3vw);
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   h4, .h4 {
     font-size: 1.5rem;
   }
@@ -341,7 +341,7 @@ legend {
   font-size: calc(1.275rem + 0.3vw);
   line-height: inherit;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   legend {
     font-size: 1.5rem;
   }
@@ -421,7 +421,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-1 {
     font-size: 5rem;
   }
@@ -432,7 +432,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-2 {
     font-size: 4.5rem;
   }
@@ -443,7 +443,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-3 {
     font-size: 4rem;
   }
@@ -454,7 +454,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-4 {
     font-size: 3.5rem;
   }
@@ -465,7 +465,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-5 {
     font-size: 3rem;
   }
@@ -476,7 +476,7 @@ progress {
   font-weight: 300;
   line-height: 1.2;
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .display-6 {
     font-size: 2.5rem;
   }
@@ -566,27 +566,27 @@ progress {
   margin-left: auto;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 300) {
   .container-sm, .container {
     max-width: 540px;
   }
 }
-@media (min-width: 768px) {
+@media (min-width: 300px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 300px) {
   .container-lg, .container-md, .container-sm, .container {
     max-width: 960px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 300px) {
   .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1140px;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 300px) {
   .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
     max-width: 1320px;
   }
@@ -817,7 +817,7 @@ progress {
   --bs-gutter-y: 3rem;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 200px) {
   .col-sm {
     flex: 1 0 0%;
   }
@@ -10927,7 +10927,7 @@ body {
   outline: none;
   background-color: transparent;
 }
-@media (min-width: 992px) {
+@media (min-width: 300px) {
   #mainNav {
     padding-top: 0;
     padding-bottom: 0;
@@ -11010,13 +11010,13 @@ body {
   max-width: 20rem;
   font-size: 1rem;
 }
-@media (min-width: 768px) {
+@media (min-width: 300) {
   .masthead h1, .masthead .h1 {
     font-size: 4rem;
     line-height: 4rem;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 300px) {
   .masthead {
     height: 100vh;
     padding: 0;
